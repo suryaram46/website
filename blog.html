@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights & AI in Action - Adzeniq</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">ADZENIQ</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1 class="glow-text">Insights & AI in Action</h1>
+            <p>Discover the latest trends, case studies, and tutorials in AI-powered marketing</p>
+        </div>
+    </section>
+
+    <section class="blog-filter">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="case-studies">Case Studies</button>
+                <button class="filter-btn" data-filter="ai-tutorials">AI Marketing Tutorials</button>
+                <button class="filter-btn" data-filter="performance">Performance Marketing</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search articles...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-grid">
+        <div class="container">
+            <div class="blog-cards">
+                <!-- Case Studies -->
+                <div class="blog-card" data-category="case-studies">
+                    <div class="blog-image">
+                        <img src="images/case-study-1.svg" alt="Case Study">
+                        <div class="blog-category">Case Study</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>How AI Helped a D2C Brand Reduce CAC by 47%</h3>
+                        <p>Learn how our AI-powered approach transformed a struggling D2C brand's marketing performance.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-category="case-studies">
+                    <div class="blog-image">
+                        <img src="images/case-study-1.svg" alt="Case Study">
+                        <div class="blog-category">Case Study</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Scaling an eCommerce Store from $50K to $500K Monthly Revenue</h3>
+                        <p>See how our AI-driven funnel optimization and Meta Ads strategy 10x'd an eCommerce business.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 28, 2023</span>
+                            <span><i class="far fa-clock"></i> 12 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-category="case-studies">
+                    <div class="blog-image">
+                        <img src="images/case-study-1.svg" alt="Case Study">
+                        <div class="blog-category">Case Study</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>From 1.8 to 4.5 ROAS: A Beauty Brand Success Story</h3>
+                        <p>Discover how our AI analytics identified hidden opportunities to more than double ROAS.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> April 10, 2023</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- AI Marketing Tutorials -->
+                <div class="blog-card" data-category="ai-tutorials">
+                    <div class="blog-image">
+                        <img src="images/tutorial-1.svg" alt="AI Tutorial">
+                        <div class="blog-category">AI Tutorial</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Getting Started with AI in Your Marketing Stack</h3>
+                        <p>A beginner's guide to implementing AI tools in your existing marketing workflow.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 5, 2023</span>
+                            <span><i class="far fa-clock"></i> 15 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-category="ai-tutorials">
+                    <div class="blog-image">
+                        <img src="images/tutorial-1.svg" alt="AI Tutorial">
+                        <div class="blog-category">AI Tutorial</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>5 Ways to Use AI for Better Meta Ads Targeting</h3>
+                        <p>Learn practical techniques to leverage AI for more precise audience targeting on Meta platforms.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 18, 2023</span>
+                            <span><i class="far fa-clock"></i> 11 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-category="ai-tutorials">
+                    <div class="blog-image">
+                        <img src="images/tutorial-1.svg" alt="AI Tutorial">
+                        <div class="blog-category">AI Tutorial</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Building AI-Powered Customer Segments for Higher Conversion</h3>
+                        <p>Step-by-step guide to creating dynamic customer segments that evolve with your data.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> April 22, 2023</span>
+                            <span><i class="far fa-clock"></i> 13 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Performance Marketing -->
+                <div class="blog-card" data-category="performance">
+                    <div class="blog-image">
+                        <img src="images/performance-1.svg" alt="Performance Marketing">
+                        <div class="blog-category">Performance</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>The Future of Attribution in a Cookieless World</h3>
+                        <p>How AI is solving the attribution challenge as third-party cookies disappear.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 10, 2023</span>
+                            <span><i class="far fa-clock"></i> 9 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-category="performance">
+                    <div class="blog-image">
+                        <img src="images/performance-1.svg" alt="Performance Marketing">
+                        <div class="blog-category">Performance</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Optimizing for Quality Score: AI-Driven Approach</h3>
+                        <p>Learn how AI can help you achieve higher quality scores and lower CPCs.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 5, 2023</span>
+                            <span><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-category="performance">
+                    <div class="blog-image">
+                        <img src="images/performance-1.svg" alt="Performance Marketing">
+                        <div class="blog-category">Performance</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Predictive ROAS: Using AI to Forecast Campaign Performance</h3>
+                        <p>How to use machine learning models to predict and improve your return on ad spend.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> April 15, 2023</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated with AI Marketing Insights</h2>
+                <p>Subscribe to our newsletter for the latest case studies, tutorials, and industry insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">ADZENIQ</a>
+                    <p>AI-Powered Digital Marketing Agency</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@adzeniq.com</p>
+                    <p><i class="fas fa-phone"></i> +91-90000-00000</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Adzeniq. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

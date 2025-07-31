@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#111111" />
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff8c;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad)" />
+  
+  <!-- Grid Pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <rect width="40" height="40" fill="none" />
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ff8c" stroke-width="0.5" opacity="0.2" />
+  </pattern>
+  <rect width="800" height="500" fill="url(#grid)" />
+  
+  <!-- Central Brain Icon -->
+  <g transform="translate(400, 250)">
+    <!-- Brain Outline -->
+    <path d="M-80,-40 C-100,-60 -100,-100 -60,-110 C-30,-118 -20,-80 0,-80 C20,-80 30,-118 60,-110 C100,-100 100,-60 80,-40 C100,-20 100,20 80,40 C100,60 80,100 40,100 C20,100 10,80 0,80 C-10,80 -20,100 -40,100 C-80,100 -100,60 -80,40 C-100,20 -100,-20 -80,-40 Z" 
+          fill="none" stroke="#00ff8c" stroke-width="3" />
+    
+    <!-- Brain Connections -->
+    <g stroke="#00ff8c" stroke-width="1.5" opacity="0.7">
+      <line x1="-50" y1="-50" x2="50" y2="50" />
+      <line x1="50" y1="-50" x2="-50" y2="50" />
+      <line x1="0" y1="-70" x2="0" y2="70" />
+      <line x1="-60" y1="0" x2="60" y2="0" />
+    </g>
+    
+    <!-- Neural Network Nodes -->
+    <g fill="#00ff8c">
+      <circle cx="-50" cy="-50" r="5">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="50" cy="-50" r="5">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="-50" cy="50" r="5">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="50" cy="50" r="5">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="8">
+        <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Marketing Stack Icons -->
+  <g transform="translate(150, 150)">
+    <!-- Social Media Icon -->
+    <rect x="-40" y="-40" width="80" height="80" rx="10" fill="#222" stroke="#00ff8c" stroke-width="2" />
+    <text x="0" y="10" fill="#00ff8c" font-family="Arial" font-size="40" text-anchor="middle">
+      <tspan font-family="Arial, sans-serif">📱</tspan>
+    </text>
+    <text x="0" y="60" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Social Media</text>
+  </g>
+  
+  <g transform="translate(650, 150)">
+    <!-- Analytics Icon -->
+    <rect x="-40" y="-40" width="80" height="80" rx="10" fill="#222" stroke="#00ff8c" stroke-width="2" />
+    <text x="0" y="10" fill="#00ff8c" font-family="Arial" font-size="40" text-anchor="middle">
+      <tspan font-family="Arial, sans-serif">📊</tspan>
+    </text>
+    <text x="0" y="60" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Analytics</text>
+  </g>
+  
+  <g transform="translate(150, 350)">
+    <!-- Email Icon -->
+    <rect x="-40" y="-40" width="80" height="80" rx="10" fill="#222" stroke="#00ff8c" stroke-width="2" />
+    <text x="0" y="10" fill="#00ff8c" font-family="Arial" font-size="40" text-anchor="middle">
+      <tspan font-family="Arial, sans-serif">✉️</tspan>
+    </text>
+    <text x="0" y="60" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Email</text>
+  </g>
+  
+  <g transform="translate(650, 350)">
+    <!-- CRM Icon -->
+    <rect x="-40" y="-40" width="80" height="80" rx="10" fill="#222" stroke="#00ff8c" stroke-width="2" />
+    <text x="0" y="10" fill="#00ff8c" font-family="Arial" font-size="40" text-anchor="middle">
+      <tspan font-family="Arial, sans-serif">👥</tspan>
+    </text>
+    <text x="0" y="60" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">CRM</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g stroke="#00ff8c" stroke-width="2" stroke-dasharray="5,5" opacity="0.7">
+    <line x1="190" y1="150" x2="360" y2="250" />
+    <line x1="610" y1="150" x2="440" y2="250" />
+    <line x1="190" y1="350" x2="360" y2="250" />
+    <line x1="610" y1="350" x2="440" y2="250" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" fill="#ffffff" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">
+    Getting Started with AI in Your Marketing Stack
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="80" fill="#00ff8c" font-family="Arial" font-size="16" text-anchor="middle">
+    A Beginner's Guide to Implementation
+  </text>
+</svg>
