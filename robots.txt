@@ -1,0 +1,7 @@
+# robots.txt for Adzeniq website
+User-agent: *
+Allow: /
+Disallow: /images/
+
+# Sitemap location
+Sitemap: https://www.adzeniq.com/sitemap.xml

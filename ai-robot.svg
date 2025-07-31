@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background glow -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#00ff8c;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <circle cx="400" cy="400" r="300" fill="url(#glow)" />
+  
+  <!-- Robot Head -->
+  <rect x="300" y="200" width="200" height="180" rx="20" fill="#111" stroke="#00ff8c" stroke-width="4" />
+  
+  <!-- Robot Eyes -->
+  <circle cx="350" cy="260" r="25" fill="#000" stroke="#00ff8c" stroke-width="3" />
+  <circle cx="450" cy="260" r="25" fill="#000" stroke="#00ff8c" stroke-width="3" />
+  <circle cx="350" cy="260" r="10" fill="#00ff8c">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="450" cy="260" r="10" fill="#00ff8c">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Robot Mouth -->
+  <rect x="330" y="310" width="140" height="30" rx="10" fill="#000" stroke="#00ff8c" stroke-width="3" />
+  <line x1="340" y1="325" x2="460" y2="325" stroke="#00ff8c" stroke-width="3" stroke-dasharray="10,5">
+    <animate attributeName="stroke-dashoffset" values="0;15" dur="1s" repeatCount="indefinite" />
+  </line>
+  
+  <!-- Robot Antennas -->
+  <line x1="330" y1="200" x2="310" y2="170" stroke="#00ff8c" stroke-width="4" />
+  <circle cx="310" cy="170" r="8" fill="#00ff8c">
+    <animate attributeName="r" values="8;10;8" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <line x1="470" y1="200" x2="490" y2="170" stroke="#00ff8c" stroke-width="4" />
+  <circle cx="490" cy="170" r="8" fill="#00ff8c">
+    <animate attributeName="r" values="8;10;8" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Robot Body -->
+  <rect x="320" y="380" width="160" height="180" rx="20" fill="#111" stroke="#00ff8c" stroke-width="4" />
+  
+  <!-- Robot Control Panel -->
+  <rect x="350" y="410" width="100" height="60" rx="5" fill="#000" stroke="#00ff8c" stroke-width="2" />
+  <circle cx="375" cy="430" r="10" fill="#00ff8c" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="425" cy="430" r="10" fill="#00ff8c" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <rect x="365" y="450" width="70" height="10" rx="5" fill="#00ff8c" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Robot Arms -->
+  <path d="M320,420 C270,420 250,460 230,500" fill="none" stroke="#00ff8c" stroke-width="4" />
+  <circle cx="230" cy="500" r="15" fill="#111" stroke="#00ff8c" stroke-width="3" />
+  
+  <path d="M480,420 C530,420 550,460 570,500" fill="none" stroke="#00ff8c" stroke-width="4" />
+  <circle cx="570" cy="500" r="15" fill="#111" stroke="#00ff8c" stroke-width="3" />
+  
+  <!-- Robot Legs -->
+  <rect x="340" y="560" width="30" height="100" rx="10" fill="#111" stroke="#00ff8c" stroke-width="4" />
+  <rect x="430" y="560" width="30" height="100" rx="10" fill="#111" stroke="#00ff8c" stroke-width="4" />
+  
+  <!-- Robot Feet -->
+  <rect x="330" y="660" width="50" height="20" rx="10" fill="#111" stroke="#00ff8c" stroke-width="3" />
+  <rect x="420" y="660" width="50" height="20" rx="10" fill="#111" stroke="#00ff8c" stroke-width="3" />
+  
+  <!-- Digital Circuit Lines -->
+  <path d="M250,300 C200,350 200,450 250,500" fill="none" stroke="#00ff8c" stroke-width="1" stroke-dasharray="5,5" />
+  <path d="M550,300 C600,350 600,450 550,500" fill="none" stroke="#00ff8c" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Floating Binary -->
+  <text x="200" y="250" fill="#00ff8c" font-family="monospace" font-size="12" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="4s" repeatCount="indefinite" />
+    10110101
+  </text>
+  <text x="550" y="250" fill="#00ff8c" font-family="monospace" font-size="12" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.5s" repeatCount="indefinite" />
+    01001010
+  </text>
+  <text x="180" y="400" fill="#00ff8c" font-family="monospace" font-size="12" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="5s" repeatCount="indefinite" />
+    11100111
+  </text>
+  <text x="570" y="400" fill="#00ff8c" font-family="monospace" font-size="12" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="4.5s" repeatCount="indefinite" />
+    00111100
+  </text>
+  
+  <!-- AI Text -->
+  <text x="400" y="730" fill="#00ff8c" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold">
+    ARTIFICIAL INTELLIGENCE
+  </text>
+</svg>
